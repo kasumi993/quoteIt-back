@@ -1,52 +1,78 @@
-# Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Email spool folder
-/app/spool/*
+# C extensions
+*.so
 
-# Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Logs (Symfony4)
-/var/log/*
-!var/log/.gitkeep
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
 
-# Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
+# Flask and other Python stuff
+instance/
+.webassets-cache
+*.log
 
-# Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-!bin/console
-!bin/symfony_requirements
-/vendor/
+# Pytest
+.cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-# Assets and user uploads
-/web/bundles/
-/web/uploads/
+# Environments
+.env
+.env.*
 
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Build data
-/build/
+# VSCode
+.vscode/
+.DS_Store
 
-# Composer PHAR
-/composer.phar
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# Backup entities generated with doctrine:generate:entities command
-**/Entity/*~
+# Pylint
+.pylint.d/
 
-# Embedded web-server pid file
-/.web-server-pid
+# PyCharm
+.idea/
+
+# Other
+*.swp
+*.swo
