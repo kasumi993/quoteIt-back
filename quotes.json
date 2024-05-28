@@ -2,6 +2,106 @@
   {
     "id": 1,
     "author": "Albert Einstein",
-    "quote": "Nous aurons le destin que nous aurons mérité."
+    "content": "Nous aurons le destin que nous aurons mérité."
+  },
+  {
+    "id": 2,
+    "author": "Franklin D. Roosevelt",
+    "content": "The only limit to our realization of tomorrow is our doubts of today."
+  },
+  {
+    "id": 3,
+    "author": "John Lennon",
+    "content": "Life is what happens when you're busy making other plans."
+  },
+  {
+    "id": 4,
+    "author": "Alan Kay",
+    "content": "The best way to predict the future is to invent it."
+  },
+  {
+    "id": 5,
+    "author": "Winston Churchill",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts."
+  },
+  {
+    "id": 6,
+    "author": "Confucius",
+    "content": "It does not matter how slowly you go as long as you do not stop."
+  },
+  {
+    "id": 7,
+    "author": "Confucius",
+    "content": "Our greatest glory is not in never falling, but in rising every time we fall."
+  },
+  {
+    "id": 8,
+    "author": "Abraham Lincoln",
+    "content": "In the end, it's not the years in your life that count. It's the life in your years."
+  },
+  {
+    "id": 9,
+    "author": "Dalai Lama",
+    "content": "The purpose of our lives is to be happy."
+  },
+  {
+    "id": 10,
+    "author": "Confucius",
+    "content": "Life is really simple, but we insist on making it complicated."
+  },
+  {
+    "id": 11,
+    "author": "Jonathan Swift",
+    "content": "May you live all the days of your life."
+  },
+  {
+    "id": 12,
+    "author": "Stephen King",
+    "content": "Get busy living or get busy dying."
+  },
+  {
+    "id": 13,
+    "author": "Brian Tracy",
+    "content": "You have within you right now, everything you need to deal with whatever the world can throw at you."
+  },
+  {
+    "id": 14,
+    "author": "Theodore Roosevelt",
+    "content": "Believe you can and you're halfway there."
+  },
+  {
+    "id": 15,
+    "author": "William James",
+    "content": "Act as if what you do makes a difference. It does."
+  },
+  {
+    "id": 16,
+    "author": "Henry David Thoreau",
+    "content": "Success usually comes to those who are too busy to be looking for it."
+  },
+  {
+    "id": 17,
+    "author": "Sam Levenson",
+    "content": "Don't watch the clock; do what it does. Keep going."
+  },
+  {
+    "id": 18,
+    "author": "Walt Whitman",
+    "content": "Keep your face always toward the sunshine—and shadows will fall behind you."
+  },
+  {
+    "id": 19,
+    "author": "Ralph Waldo Emerson",
+    "content": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+  },
+  {
+    "id": 20,
+    "author": "Tony Robbins",
+    "content": "The only impossible journey is the one you never begin."
+  },
+  {
+    "id": 21,
+    "author": "Charles Kingsleigh (Alice in Wonderland)",
+    "content": "The only way to achieve the impossible is to believe it is possible."
   }
 ]

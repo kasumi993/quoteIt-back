@@ -15,11 +15,21 @@ def save_quotes(quotes):
     with open('quotes.json', 'w') as file:
         json.dump(quotes, file, indent=4)
 
-# Route to get all quotes
 @app.route('/quotes', methods=['GET'])
 def get_quotes():
+    search_query = request.args.get('search')
     quotes = load_quotes()
-    return jsonify(quotes), 200
+
+    if search_query and search_query != 'null' and search_query != '':
+        search_query_lower = search_query.lower()
+        filtered_quotes = [
+            quote for quote in quotes
+            if search_query_lower in quote['content'].lower() or search_query_lower in quote['author'].lower()
+        ]
+    else:
+        filtered_quotes = quotes
+
+    return jsonify(filtered_quotes), 200
 
 # Route to add a new quote
 @app.route('/quotes', methods=['POST'])
