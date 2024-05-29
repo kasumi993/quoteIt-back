@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "5001:5000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URI=postgresql://postgres:passWord@db:5432/quoteTier
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: passWord
+      POSTGRES_DB: quoteTier
+    ports:
+      - "5432:5432"
